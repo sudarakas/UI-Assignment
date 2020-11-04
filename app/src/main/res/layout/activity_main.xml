@@ -90,6 +90,7 @@
         android:backgroundTint="@color/colorWhite"
         android:ems="10"
         android:inputType="date"
+        android:textColor="@color/colorWhite"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"

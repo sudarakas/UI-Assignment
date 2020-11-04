@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
@@ -14,7 +13,7 @@ import android.widget.TextView;
 
 public class RegisterStep2 extends AppCompatActivity {
 
-    private Button btnNextTwo;
+    private Button btnNextFinal;
     private Spinner spinnerObject;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,13 +29,12 @@ public class RegisterStep2 extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> parentView, View selectedItemView, int position, long id) {
                 ((TextView)parentView.getChildAt(0)).setTextColor(Color.WHITE);
-                Log.d("myTag", "This is my message");
             }
         });
 
-        btnNextTwo = (Button) findViewById(R.id.btnNextTwo);
+        btnNextFinal = (Button) findViewById(R.id.btnNextFinal);
 
-        btnNextTwo.setOnClickListener(new View.OnClickListener() {
+        btnNextFinal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent next = new Intent(getApplicationContext(), RegisterStep3.class);

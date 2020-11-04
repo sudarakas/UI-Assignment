@@ -9,15 +9,15 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button btnNextOne;
+    private Button btnNextTwo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btnNextOne = (Button) findViewById(R.id.btnNextTwo);
+        btnNextTwo = (Button) findViewById(R.id.btnNextTwo);
 
-        btnNextOne.setOnClickListener(new View.OnClickListener() {
+        btnNextTwo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent next = new Intent(getApplicationContext(), RegisterStep2.class);

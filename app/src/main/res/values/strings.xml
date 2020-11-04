@@ -11,4 +11,34 @@
     <string name="nic">NIC</string>
     <string name="sex">Sex</string>
     <string name="personaldetails">Personal Details</string>
+    <string name="age">Age</string>
+    <string name="interests">Interests</string>
+    <string name="movie_pref">Movie Preference</string>
+    <string name="register">Register</string>
+
+    <string-array name="category_array">
+        <item>Action</item>
+        <item>Adventure</item>
+        <item>Comedy</item>
+        <item>Crime</item>
+        <item>Drama</item>
+        <item>Fantasy</item>
+        <item>Historical</item>
+        <item>Historical fiction</item>
+        <item>Horror</item>
+        <item>Magical realism</item>
+        <item>Mystery</item>
+        <item>Bewildered</item>
+        <item>Paranoid fiction</item>
+        <item>Political</item>
+        <item>Romance</item>
+        <item>Saga</item>
+        <item>Satire</item>
+        <item>Science fiction</item>
+        <item>Social</item>
+        <item>Speculative</item>
+        <item>Thriller</item>
+        <item>Urban</item>
+        <item>Western</item>
+    </string-array>
 </resources>
